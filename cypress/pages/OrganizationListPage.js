@@ -31,8 +31,8 @@ class OrgListPage {
 
     loginAdmin() {
         this.elements.emailInput().clear();
-        this.elements.emailInput().type("admin")
-        this.elements.passwordInput().type("Admin2023User_!")
+        this.elements.emailInput().type()
+        this.elements.passwordInput().type()
         this.elements.loginBtn().click()
 
     }
